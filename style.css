@@ -1,0 +1,192 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Manrope';
+        }
+        body:not(h2){
+            text-align: center;
+        }
+         .wrapper{
+            width: 100vw;
+            height: 140vh;
+            background-color: 99CCFF;
+        }
+        .main{
+            position: absolute;
+            top: 9%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        table{
+         /*   display: block; */
+            border: 3px solid #2e8b57;
+            border-collapse: collapse;
+            max-height: 400px;
+            overflow: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 4px rgb(0 0 0 / 30%);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        tr{
+            /* border: 3px solid #2e8b57; */
+
+
+        }
+        th{
+
+            background-color: #2e8b57;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .sticky{
+            /* position: sticky;
+            top: 0px; */
+            outline: 1px solid #222
+        }
+        th, td{
+            padding: 5px 30px;
+            /* border: 3px solid #222; */
+        }
+        thead{
+            background-color: #222;
+            position: sticky;
+            top: 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .edit:link, .edit:visited{
+            font-weight: 600;
+            color: green;
+        }
+        .delete:link, .delete:visited{
+            font-weight: 600;
+            color: #f34723;
+        }
+        .btn{
+            display: block;
+            width: 50%;
+            padding: 7px 0;
+            background: #222;
+            border: none;
+            font-weight: 500;
+            line-height: 20px;
+            color: #fff;
+            margin: 0 auto;
+        }
+
+        .main-f{
+            padding-top: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        main h2{
+            margin-bottom: 30px;
+        }
+        .btn-f{
+            display: block;
+            max-width: 30%;
+            padding: 7px 20px;
+            background: #2E8B57;
+            border: none;
+            font-weight: 500;
+            line-height: 20px;
+            color: #fff;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        table::-webkit-scrollbar {
+    width: 3px;                                /* ширина scrollbar */
+    background-color: transparent;        /* цвет дорожки */
+}
+
+table::-webkit-scrollbar-thumb {
+    background-color: #222;    /* цвет плашки */
+    border-style: none;                             /* padding вокруг плашки */
+}
+
+           h2{
+            text-align: center;
+
+        }
+
+        .inpt__cont{
+            display: flex;
+            flex-direction: column;
+            row-gap: 4px;;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        input[type='submit'], input[type='reset']{
+            display: block;
+            width: 100%;
+            padding: 6px 0;
+            margin-top: 2px;
+            margin-bottom: 4px;
+            background: #2E8B57;
+            border: none;
+            font-weight: 500;
+            line-height: 20px;
+            color: #fff;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            color: #222;
+            font-weight: 600;
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            row-gap: 7px;
+        }
+        input, textarea{
+
+            padding: 7px;
+            font-family: 'Manrope';
+            border: none;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        textarea{
+            resize: none;
+        }
+        textarea:focus{
+            outline: none;
+        }
+        input:focus{
+            outline: none;
+        }
+        label{
+            font-weight: 600;
+        }
+       h1{
+            color: white;
+
+        }
+        .selector{
+            display: block;
+            max-width: 60%;
+            padding: 7px 20px;
+            background: #2E8B57;
+            border: none;
+            font-weight: 500;
+            line-height: 20px;
+            color: #fff;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
